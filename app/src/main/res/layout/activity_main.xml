@@ -10,10 +10,10 @@
         android:id="@+id/tv_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -21,11 +21,11 @@
             style="@style/TextViewForm"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
             android:background="@drawable/rounded_button"
             android:paddingHorizontal="18dp"
-            android:layout_weight="1"
             android:paddingVertical="4dp"
-            android:layout_marginEnd="10dp"
             android:text="@string/delivery"
             android:textColor="@color/white"
             android:textSize="16sp" />
@@ -234,18 +234,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                tools:listitem="@layout/item_category"
+                />
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-
-        </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
 

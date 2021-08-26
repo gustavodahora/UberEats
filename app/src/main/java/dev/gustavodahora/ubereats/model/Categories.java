@@ -4,7 +4,7 @@ public class Categories {
     private int imageField;
     private int textField;
 
-    Categories(int imageField, int textField) {
+    public Categories(int imageField, int textField) {
         this.imageField = imageField;
         this.textField = textField;
     }

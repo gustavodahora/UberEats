@@ -222,7 +222,10 @@
 
     </LinearLayout>
 
+
+
     <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fillViewport="true"
@@ -237,10 +240,17 @@
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_categories"
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 tools:listitem="@layout/item_category"
                 />
+
+            <View
+                android:id="@+id/view_top"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_light" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"

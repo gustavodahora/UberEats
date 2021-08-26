@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">UberEats</string>
+
+    <string name="delivery">Entrega</string>
+    <string name="to_remove">Para retirar</string>
+    <string name="street">Av. Paulista, 2299</string>
+    <string name="now">Agora</string>
+    <string name="settings_icon">Settings icon</string>
+    <string name="dot_icon">dot_icon</string>
+    <string name="account">Conta</string>
+    <string name="home">Início</string>
+    <string name="search">Procurar</string>
+    <string name="market">Mercado</string>
+    <string name="receipt">Pedidos</string>
+    <string name="person">Conta</string>
 </resources>
